@@ -1,0 +1,121 @@
+/*Menu*/
+
+
+body{
+
+	background: #d2d2c1 url('fundo.png');
+	font: 16px Arial, Helvetica, sans-serif;
+}
+
+#principal{
+	border: 10px solid #c3c3ae;
+	margin: auto;
+	/*border: 1px solid red;*/
+	width: 900px;
+
+}
+
+#menu{
+	margin-top: -4px;
+	background-color: #c5c5b2 ;
+	padding: 8px;
+	font-size: 15px;
+	/*border: 2px solid white;*/
+	
+}
+
+#conteudo{
+	background: #e8e8d9;
+	padding: 15px;
+	margin: auto;
+}
+
+#contatosEmailEtel{
+
+}
+
+a
+{
+	color: #4b566a;
+	text-decoration: none;/*retira o onderline*/
+	padding: 8px;/*cria um espassamento de 5px em todas direcoes dentro de cada link*/
+	font-weight: bold; 
+	/*border: 0.5px solid white;*/
+}
+
+/*LINKS DO MENU GERAL*/
+/*Links nao vizitados*/
+#menu a:link
+{
+	/*color: #2874A6 ;/*cor dos links(branco antes de serem visitados)*/
+}
+
+/*Links vizitados*/
+#menu a:visited
+{
+	/*color: #000000;/*cor dos links(ficara preto depois de visitados)*/
+}
+
+/*Links hover, (passando mouse)*/
+#menu a:hover
+{
+	border-radius: 15px;/*cria uma borda arredondada*/
+	/*color: #404040;/*cor da fonte do link ao passar o mouse*/
+	background: #e8e8d9;/*cor do fundo do links ao passar o mouse*/
+}
+
+#menu a:active
+{
+	/*color: #000000;/*cor da fonte do link ao tempo que estiver clicando no menu*/
+}
+
+
+
+/*LINKS da PAGINA CONTATOS*/
+/*Links active, (enquando clicando)*/
+#contatosLink a:active
+{
+	/*color: #000000;/*cor da fonte do link ao tempo que estiver clicando no menu*/
+}
+
+#contatosLink a:link
+{
+	/*color: #2874A6 ;/*cor dos links(branco antes de serem visitados)*/
+}
+
+/*Links vizitados*/
+#contatosLink a:visited
+{
+	/*color: #000000;/*cor dos links(ficara preto depois de visitados)*/
+}
+
+/*Links hover, (passando mouse)*/
+#contatosLinks a:hover
+{
+	border-radius: 15px;/*cria uma borda arredondada*/
+	/*color: #404040;/*cor da fonte do link ao passar o mouse*/
+	background: #828271;/*cor do fundo do links ao passar o mouse*/
+}
+
+/*Links active, (enquando clicando)*/
+a:active
+{
+	/*color: #000000;/*cor da fonte do link ao tempo que estiver clicando no menu*/
+}
+
+
+.img-campanhas{
+	border: 10px solid #c3c3ae;
+}
+
+.rodape{
+	font-weight: bold;
+	font-size: 0.7em;
+	padding: 30px;
+	text-align: center;
+}
+
+h1{
+	color: #828271;
+	font-size: 1.2em;
+}
